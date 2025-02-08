@@ -17,7 +17,7 @@ def tool_retriever_router_query_engine(summary_index, vector_index):
             metadata=ToolMetadata(
                 name="vector_engine",
                 description=(
-                    "useful for retrieving specific context from the agriculture pdf"
+                    "useful for retrieving specific context from the agriculture document"
                 ),
             ),
         ),
@@ -26,7 +26,7 @@ def tool_retriever_router_query_engine(summary_index, vector_index):
             metadata=ToolMetadata(
                 name="summary_engine",
                 description=(
-                    "useful for summarization questions related to agriculture"
+                    "useful for summarization questions related to agriculture document"
                 ),
             ),
         ),

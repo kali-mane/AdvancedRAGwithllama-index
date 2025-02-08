@@ -16,7 +16,7 @@ document = os.path.join("../data", "Agricultural Produce (Grading and Marking) A
 summary_index, vector_index = get_index(document)
 
 query_engine = tool_retriever_router_query_engine(summary_index, vector_index)
-query = "What is the summary of the document"
+query = "What is mentioned on page 2 of the agriculture document"
 print(query)
 response = query_engine.query(query)
 print(response)
